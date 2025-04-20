@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid-container {
+    width: 832px;
+    height: 832px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+box-sizing: border-box;
+border: 0.5px solid black; /* optional */
+}
